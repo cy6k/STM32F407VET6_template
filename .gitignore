@@ -1,0 +1,43 @@
+# ===== Keil MDK 编译产物（不要上传）=====
+Objects/
+Listings/
+DebugConfig/
+RTE/
+
+# ===== Keil 工程个人界面/布局文件（可不传）=====
+*.uvguix.*
+
+# ===== 编译中间文件 =====
+*.o
+*.d
+*.crf
+*.axf
+*.map
+*.lnp
+*.lst
+*.dep
+*.iex
+*.htm
+*.build_log.htm
+*.sct
+*.bak
+*.tmp
+*.plg
+*.rpt
+*.__i
+
+# ===== 其它调试器/工具临时文件 =====
+JLinkLog.txt
+*.FANKE
+*.FANKE-LQM
+
+# ===== Windows 系统文件 =====
+Thumbs.db
+desktop.ini
+
+# ===== ST CMSIS 中本工程未用到的部分（体积大，保留源码即可）=====
+# 这些是 ST 库自带的文档/例程/预编译库，本 Keil 工程不编译它们
+Libraries/CMSIS/Documentation/
+Libraries/CMSIS/DSP_Lib/
+Libraries/CMSIS/Lib/
+Libraries/CMSIS/RTOS/
